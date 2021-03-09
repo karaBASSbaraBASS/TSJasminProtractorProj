@@ -1,0 +1,25 @@
+{
+  "name": "tsjasminprotractorproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf output_js/; tsc; protractor output_js/config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karaBASSbaraBASS/TSJasminProtractorProj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karaBASSbaraBASS/TSJasminProtractorProj/issues"
+  },
+  "homepage": "https://github.com/karaBASSbaraBASS/TSJasminProtractorProj#readme",
+  "dependencies": {
+    "@types/jasmine": "^3.3.12",
+    "@types/node": "^10.5.2",
+    "protractor": "^7.0.0",
+    "typescript": "^3.4.1"
+  }
+}
