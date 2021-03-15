@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "rm -rf output_js/; tsc; protractor output_js/config.js"
+    "test": "rm -rf output_js/ && tsc && protractor output_js/protractorConfig.js",
+    "startServ2": "java -jar -Dwebdriver.chrome.driver=/chromedriver /c/projects/TSJasminProtractorProj/selenium-server-standalone.jar -port 4445",
+    "startServ": "webdriver-manager start --seleniumPort 4445"
   },
   "repository": {
     "type": "git",
